@@ -15,6 +15,8 @@ class Got
       `afplay #{ song }`
     when /nix/
       `aplay #{ song }`
+    when /linux/
+      `mpg321 -q #{ song }`
     when /cygwin/
       `cygstart #{ song }`
     end
