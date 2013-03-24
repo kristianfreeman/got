@@ -1,3 +1,7 @@
+=== 0.0.2 / 2013-03-23
+
+Fix Linux support
+
 === 0.0.1 / 2013-03-23
 
 First version
